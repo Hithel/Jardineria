@@ -108,6 +108,7 @@ public class ProductoController : ApiBaseController
     }
 
 
+
     [HttpGet("GetVentas3000")]
     [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
