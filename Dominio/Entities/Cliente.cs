@@ -1,7 +1,7 @@
 
 
 namespace Dominio.Entities;
-    public class Cliente 
+    public class Cliente  
     {
         public int CodigoCliente { get; set; }
         public string NombreCliente { get; set; }

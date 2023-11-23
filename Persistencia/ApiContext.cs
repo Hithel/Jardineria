@@ -23,7 +23,7 @@ namespace Persistencia;
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        }
+        } 
 
         /* dotnet ef migrations add InitialCreate --project .\Persistencia\ --startup-project .\Api\ --output-dir ./Data/Migrations 
          */

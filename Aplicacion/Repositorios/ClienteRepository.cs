@@ -87,7 +87,7 @@ public class ClienteRepository : GenericRepositoryEntity<Cliente>, ICliente
         return result;
     }
 
-    public async Task<IEnumerable<Object>> GetCLienteEmpleadoOficina()
+    public async Task<IEnumerable<Object>> GetCLienteEmpleadoOficina() 
         {
             var result = await _context.Clientes
             .Join(_context.Empleados,
